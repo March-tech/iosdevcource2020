@@ -431,16 +431,16 @@ if secondVar > thirdVar {
 // 3. Составить алгоритм увеличения всех трех ранее созданных переменных на 5,если среди них есть хотя бы две равные. В противном случае выдать ответ «равных нет».
 
 
-
+// увеличить на 5 это - "+="
 
 
 if (firstVar == secondVar) || (secondVar == thirdVar)
 
-{firstVar+5
+{firstVar+=5
 
-secondVar+5
+secondVar+=5
 
-thirdVar+5 } else {
+thirdVar+=5 } else {
 
     print("равных нет")
 
