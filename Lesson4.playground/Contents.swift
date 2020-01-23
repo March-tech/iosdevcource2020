@@ -18,6 +18,14 @@ var intArray: [Int] = [] // массив
 
 
 
+
+// Creating
+
+// Declaration
+var emptyInts: Array<Int> = Array() //полное имя - не предпочтительно
+var emptyDoubles: [Double] = []// короткое - используем
+
+
 // Modifying array Accessing Array Values
 
 let constArray = [1,3,5,7,10]
@@ -39,7 +47,7 @@ constArray.last
 
 
 //updating elements
-//если массв константа мы не можем изменить кол-во эл-тов
+//если массив константа мы не можем изменить кол-во эл-тов
 
 //constArray[1] = 0 -warning
 
@@ -53,6 +61,8 @@ varArray[1] = 0
 //varArray.sorted() - получаем новый массив
 
 //adding and remove elements
+
+
 var newArray =  [Int] () // [1,2,3]
 newArray.append(1)
 newArray.append(2)
@@ -131,23 +141,34 @@ var tupleItem3 = tuple.mystring
 
 //переименотовать любой тип в любон выдуманое мной название
 typealias MyCustomTupleType = (integer: Int, double: Double, mystring: String)
-var customTuple: MyCustomTupleType
-customTuple.integer = 1
-customTuple
+//var customTuple: MyCustomTupleType
+//customTuple.integer = 1
+//customTuple
 
 
 
 //Set
 
-//нет возможности обращатбся с помошью сабскипта, проверяет есть ли искомый элемент
+//нет возможности обращатбся с помошью сабскрипта, проверяет есть ли искомый элемент
 //creating
-var customSet: Set<Int> = [1,2,3,4,5]
+var customSet: Set<Int> = [1, 2, 3, 4, 5]
 //customSet.count -кол-во эл в сете
 customSet.count
-var subSet: Set<Int> = [2,3,4,7]
+var subSet: Set<Int> = [2, 3, 4, 7]
 var inSubset = subSet.isSubset(of: customSet)
 subSet.intersection(customSet)
-
+var filtered = customSet.filter { (argument) -> Bool in
+    if argument < 4 {
+        return true
+    } else {
+        return false
+    }
+}
+let newset = filtered.map {
+    $0 * 2
+}
+newset
+filtered
 
 //iterating
 
@@ -186,11 +207,10 @@ color()
 
 struct CustomStruct {
     
-    fileprivate func shortAction() {
-        
+    func shortAction() {
     }
     static func InternalFunc () {
-        shortAction()
+ //       shortAction ()
     }
 }
 
@@ -214,19 +234,119 @@ var color = UIColor( white: 255, alpha: 1.0)
 //
 //}
 typealias MyClosure = (Int, String) -> Void
-
-var customClosure: (Int, String) -> Void = {
-  print("closer is called")
+var customClosure: (Int, String, Double) -> Void = {
+    print("closure is called")
     print($0)
     print($1)
+    print($2)
 }
-var newClouser = customClosure
-newClouser(1, "hello")
+var newClosure = customClosure
+newClosure(1, "Hello", 1.0)
 
-var oneMoreClosure: MyClosure {
-//    $0
-//    $1
-//}
+var oneMoreClosure: MyClosure = { myInteger, myString in
 
+}
 //$ позволяет обратитбься к конткретному элементу
 
+
+//My homework 4 -----------------
+
+
+// Написать функцию в которой необходимо:
+//1. Write a Swift program to check if two given arrays of integers have 0 as their first element.
+//произвести проверку двух массивов(Int) являются ли их первые элементы нулями и вывести соответствующее сообщение в консоль.
+
+let newArray1: [Int] = [0, 4, 2, 6, 0]
+let newArray2: [Int] = [1, 3, 4, 5]
+
+
+if newArray1[0] == 0 {
+    print( "first element is 0")
+} else {
+    print("first element is not 0 ")
+}
+
+if newArray2[0] == 0 {
+    print("first element is 0")
+} else {
+    print("first element is not 0 ")
+}
+
+
+//2. Write a Swift program to test if an array of integers does not contain a 3 or a 5.
+//произвести проверку двух массивов(Int) на отсутствие в них элементов 3 и 5 и вывести соответствующее сообщение в консоль
+ 
+if newArray1.contains(3) && newArray1.contains(5){
+    print("Array contain 3 and 5")
+} else {
+    print("Array of integers does not contain a 3 or a 5")
+}
+    
+if newArray2.contains(3) && newArray2.contains(5){
+    print("Array contain 3 and 5")
+} else {
+    print("Array of integers does not contain a 3 or a 5")
+}
+
+
+//3. Write a Swift program to check whether the first element and the last element of a given array of integers are equal.
+//произвести проверку одинаковы ли первый и последний элементы данного массива(Int) и вывести соответствующее сообщение в консоль
+
+if newArray1.first == newArray1.last {
+    print ("The first element and the last element of a given array of integers are equal")
+} else { print ("The first element and the last element of a given array of integers are NOT equal!")
+    
+}
+
+//4. Write a Swift program that creates Array, adds an item, remove item, modify item and then prints size of the array.
+//проинициализировать массив, добавить в него элемент, удалить элемент, модифицировать какой-нибудь элемент и вывести в консоль размер массива(количество элементов)
+
+var arrayNew = [10, 12, 100]
+arrayNew.append(230)
+arrayNew.insert(88, at: 1)
+arrayNew.remove(at: 2)
+arrayNew.reverse()
+print (arrayNew)
+
+//5. Write a Swift program that creates Dictionary, adds an item, remove item, modify item and then prints size of the Dictionary.
+//проинициализировать словарь, добавить в него элемент, удалить элемент, модифицировать какой-нибудь элемент и вывести в консоль размер словаря(количество элементов)
+
+
+var myClothes = [
+    "color" : "white",
+    "size" : "4",
+    "type" : "foot"
+]
+myClothes["color2"] = "red"
+myClothes
+myClothes.removeValue(forKey: "color")
+myClothes
+myClothes["color"] = "color1"
+myClothes
+print( myClothes.count)
+
+
+//6. Write a Swift program that creates Set, adds an item and then prints size of the Set.
+////проинициализировать Сет, добавить в него элемент и вывести в консоль размер Сета(количество элементов)
+
+var newSet: Set<String> = ["dog", "cat", "cow", "bird", "flower"]
+newSet.insert("tree")
+newSet
+print( newSet.count)
+
+//7. Create 2 arrays, and merge them.
+//проинициализировать 2 массива и объединить(можно в новом массиве)
+
+var partOne = ["word", "new", "action"]
+var partTwo = ["song", "word", "earth"]
+var OneTwo = partOne + partTwo
+print(OneTwo)
+
+//8. Write a closure to sum 2 integers, pass closure as argument to function, where return the result of calling that closure.
+//Написать замыкание(closure), задача которого складывать 2 полученных аргумента типа Int и вернуть его или вывести в консоль.
+
+
+var sumTwoIntegers: (Int, Int) -> Int = { int1, int2 in
+    return int1 + int2
+}
+print(sumTwoIntegers(20,4)) 
