@@ -276,7 +276,7 @@ if newArray2[0] == 0 {
 //2. Write a Swift program to test if an array of integers does not contain a 3 or a 5.
 //произвести проверку двух массивов(Int) на отсутствие в них элементов 3 и 5 и вывести соответствующее сообщение в консоль
  
-if newArray1.contains(3) && newArray1.contains(5){
+if newArray1.contains(3) && newArray1.contains(5){ // если не содержит надо писать "!newArray1.contains(3)" - если не содежит 3
     print("Array contain 3 and 5")
 } else {
     print("Array of integers does not contain a 3 or a 5")
@@ -350,3 +350,20 @@ var sumTwoIntegers: (Int, Int) -> Int = { int1, int2 in
     return int1 + int2
 }
 print(sumTwoIntegers(20,4)) 
+
+//closure254 -имя агруменнта
+
+func func1 (int1:Int, int2:Int, closure254:(Int, Int) -> Int) {
+    var var1 = closure254(int1, int2) + 10
+    print(var1)
+}
+
+func1(int1: 2, int2: 4, closure254: sumTwoIntegers)
+
+
+var globalVariable = 10
+var closure : (Int) -> Void = {integer in
+    print(globalVariable, integer)
+}
+
+
