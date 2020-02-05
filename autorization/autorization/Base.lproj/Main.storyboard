@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,32 +10,33 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autorization" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SwY-UO-RhS">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXH-ZN-3R5">
-                                <rect key="frame" x="184" y="534" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTS-U6-ytv">
-                                <rect key="frame" x="87" y="273" width="240" height="21"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7vP-qV-bvk" userLabel="UItextField">
+                                <rect key="frame" x="20" y="659" width="374" height="34"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bz8-OC-2QO" userLabel="UILabel">
+                                <rect key="frame" x="20" y="40" width="374" height="609"/>
+                                <mutableString key="text">Label Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabel Label Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabel Label Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabel Label Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel Label Label Label LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabel</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="cTS-U6-ytv" firstAttribute="centerX" secondItem="SwY-UO-RhS" secondAttribute="centerX" id="Ag2-gb-9hO"/>
-                            <constraint firstItem="lXH-ZN-3R5" firstAttribute="top" secondItem="SwY-UO-RhS" secondAttribute="bottom" constant="22" id="Ju1-Um-PHr"/>
-                            <constraint firstItem="lXH-ZN-3R5" firstAttribute="centerX" secondItem="SwY-UO-RhS" secondAttribute="centerX" id="QGP-5q-ak7"/>
+                            <constraint firstItem="Bz8-OC-2QO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="IRE-rj-vFS"/>
+                            <constraint firstAttribute="trailing" secondItem="7vP-qV-bvk" secondAttribute="trailing" constant="20" id="Jks-e6-A3f"/>
+                            <constraint firstItem="Bz8-OC-2QO" firstAttribute="trailing" secondItem="7vP-qV-bvk" secondAttribute="trailing" id="LXi-QB-9tD"/>
+                            <constraint firstItem="7vP-qV-bvk" firstAttribute="top" secondItem="Bz8-OC-2QO" secondAttribute="bottom" constant="10" id="ny6-55-GiH"/>
+                            <constraint firstItem="Bz8-OC-2QO" firstAttribute="leading" secondItem="7vP-qV-bvk" secondAttribute="leading" id="rrs-lq-dDo"/>
+                            <constraint firstItem="7vP-qV-bvk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="vDp-UK-KfG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
