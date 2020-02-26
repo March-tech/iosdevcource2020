@@ -20,5 +20,12 @@ class MainViewController: UIViewController {
         
        WelcomeLabel.text = loginInfo
     }
+    @IBAction func profileButtonIsPushed(_ sender: Any) {
+        performSegue(withIdentifier: "profileVC", sender: nil)
+    }
     
 }
+
+//@IBAction func profileButtonIsPushed(_ sender: Any) {
+//    performSegue(withIdentifier: "profileVC", sender: nil)
+//}
