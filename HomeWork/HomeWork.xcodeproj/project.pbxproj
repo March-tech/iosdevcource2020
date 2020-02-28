@@ -18,12 +18,12 @@
 		C176236E23FAC904000BA152 /* AutorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176236D23FAC904000BA152 /* AutorizationViewController.swift */; };
 		C176237023FAC930000BA152 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176236F23FAC930000BA152 /* MainViewController.swift */; };
 		C176237223FAC984000BA152 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176237123FAC984000BA152 /* ProfileViewController.swift */; };
-		C1C2F8F22405AB6A0086805B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2F8F12405AB6A0086805B /* TableViewCell.swift */; };
-		C1C2F8F42405AC340086805B /* StudentsDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2F8F32405AC340086805B /* StudentsDataStorage.swift */; };
-		C1C2F8F62405ACB90086805B /* StudentsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2F8F52405ACB90086805B /* StudentsStruct.swift */; };
 		C1CA874723FC4D9D009C5D30 /* Names.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1CA874623FC4D9D009C5D30 /* Names.txt */; };
 		C1CA874E23FC5CA3009C5D30 /* XIBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA874C23FC5CA3009C5D30 /* XIBTableViewCell.swift */; };
 		C1CA874F23FC5CA3009C5D30 /* XIBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CA874D23FC5CA3009C5D30 /* XIBTableViewCell.xib */; };
+		C1DBA1CF240979CD00F90264 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBA1CE240979CD00F90264 /* TableViewCell.swift */; };
+		C1DBA1D124097A1200F90264 /* StudentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBA1D024097A1200F90264 /* StudentStruct.swift */; };
+		C1DBA1D324097BB400F90264 /* StudentsDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBA1D224097BB400F90264 /* StudentsDataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,12 +40,12 @@
 		C176236D23FAC904000BA152 /* AutorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewController.swift; sourceTree = "<group>"; };
 		C176236F23FAC930000BA152 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C176237123FAC984000BA152 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		C1C2F8F12405AB6A0086805B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "../../../../Downloads/HW11-master/homework11/TableViewCell.swift"; sourceTree = "<group>"; };
-		C1C2F8F32405AC340086805B /* StudentsDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentsDataStorage.swift; path = "../../../../Downloads/HW11-master/homework11/StudentsDataStorage.swift"; sourceTree = "<group>"; };
-		C1C2F8F52405ACB90086805B /* StudentsStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentsStruct.swift; path = "../../../../Downloads/HW11-master/homework11/StudentsStruct.swift"; sourceTree = "<group>"; };
 		C1CA874623FC4D9D009C5D30 /* Names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Names.txt; sourceTree = "<group>"; };
 		C1CA874C23FC5CA3009C5D30 /* XIBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBTableViewCell.swift; sourceTree = "<group>"; };
 		C1CA874D23FC5CA3009C5D30 /* XIBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBTableViewCell.xib; sourceTree = "<group>"; };
+		C1DBA1CE240979CD00F90264 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C1DBA1D024097A1200F90264 /* StudentStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentStruct.swift; sourceTree = "<group>"; };
+		C1DBA1D224097BB400F90264 /* StudentsDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsDataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,6 @@
 				C176236F23FAC930000BA152 /* MainViewController.swift */,
 				C160350C23FFE0040020CCE9 /* TableViewController.swift */,
 				C176237123FAC984000BA152 /* ProfileViewController.swift */,
-				C1C2F8F12405AB6A0086805B /* TableViewCell.swift */,
-				C1C2F8F52405ACB90086805B /* StudentsStruct.swift */,
-				C1C2F8F32405AC340086805B /* StudentsDataStorage.swift */,
 				C176235F23FAC23A000BA152 /* Main.storyboard */,
 				C1CA874623FC4D9D009C5D30 /* Names.txt */,
 				C176236223FAC23C000BA152 /* Assets.xcassets */,
@@ -96,6 +93,9 @@
 				C165CFF123FFEE6400B542F4 /* ProfileManager.swift */,
 				C176236423FAC23C000BA152 /* LaunchScreen.storyboard */,
 				C176236723FAC23C000BA152 /* Info.plist */,
+				C1DBA1CE240979CD00F90264 /* TableViewCell.swift */,
+				C1DBA1D024097A1200F90264 /* StudentStruct.swift */,
+				C1DBA1D224097BB400F90264 /* StudentsDataStorage.swift */,
 			);
 			path = HomeWork;
 			sourceTree = "<group>";
@@ -173,15 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DBA1CF240979CD00F90264 /* TableViewCell.swift in Sources */,
 				C176237223FAC984000BA152 /* ProfileViewController.swift in Sources */,
 				C1CA874E23FC5CA3009C5D30 /* XIBTableViewCell.swift in Sources */,
 				C165CFF223FFEE6400B542F4 /* ProfileManager.swift in Sources */,
 				C160350D23FFE0040020CCE9 /* TableViewController.swift in Sources */,
 				C160351123FFE7940020CCE9 /* ValidatorViewController.swift in Sources */,
-				C1C2F8F22405AB6A0086805B /* TableViewCell.swift in Sources */,
-				C1C2F8F62405ACB90086805B /* StudentsStruct.swift in Sources */,
+				C1DBA1D124097A1200F90264 /* StudentStruct.swift in Sources */,
 				C176235A23FAC23A000BA152 /* AppDelegate.swift in Sources */,
-				C1C2F8F42405AC340086805B /* StudentsDataStorage.swift in Sources */,
+				C1DBA1D324097BB400F90264 /* StudentsDataStorage.swift in Sources */,
 				C176236E23FAC904000BA152 /* AutorizationViewController.swift in Sources */,
 				C176235C23FAC23A000BA152 /* SceneDelegate.swift in Sources */,
 				C176237023FAC930000BA152 /* MainViewController.swift in Sources */,
