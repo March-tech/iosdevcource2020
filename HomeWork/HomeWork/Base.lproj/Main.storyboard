@@ -226,6 +226,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="HrU-Ce-Bpd"/>
                     </view>
                     <connections>
                         <outlet property="Name" destination="T4d-iq-SYb" id="DZw-4W-kVs"/>
@@ -361,7 +362,6 @@
         <image name="pink-roses-2533389_1920" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kMQ-hz-kfL"/>
         <segue reference="LTV-3Z-28M"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -329,5 +329,145 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC - 6fe8e4aa5e355f3e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork.ProfileViewController.studentNameLabel.getter : Swift.String"
+                  moduleName = "HomeWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marta/Documents/Learn/HomeWork/HomeWork/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC - c3a1edf5342a4da2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork.ProfileViewController.studentNameLabel.setter : Swift.String"
+                  moduleName = "HomeWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marta/Documents/Learn/HomeWork/HomeWork/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC - d5b76cd69acef353"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork.ProfileViewController.studentNameLabel.modify : Swift.String"
+                  moduleName = "HomeWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marta/Documents/Learn/HomeWork/HomeWork/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC - 7283a5370c01eba9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork.ProfileViewController.studentNameLabel.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HomeWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marta/Documents/Learn/HomeWork/HomeWork/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC - b95af9ebaee90b7b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork.ProfileViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HomeWork.ProfileViewController"
+                  moduleName = "HomeWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marta/Documents/Learn/HomeWork/HomeWork/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "762">
+               </Location>
+               <Location
+                  uuid = "718CAFE7-E0C8-4FB9-92B7-35AD0FE785AC - 24db0093466f7260"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork.ProfileViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HomeWork.ProfileViewController&gt;"
+                  moduleName = "HomeWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marta/Documents/Learn/HomeWork/HomeWork/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "694">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36D1D6C0-0F6E-4CDF-A47F-729022E29E74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1568C30-CF49-414A-8972-4B4C20FC5F8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
