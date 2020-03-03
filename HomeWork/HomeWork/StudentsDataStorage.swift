@@ -31,7 +31,13 @@ class StudentsDataStorage : NSObject, UITableViewDataSource {
         }
         let arrayFromString = dataFromFile.split(separator: " ")
         arrayFromString.forEach { subStudent in
-        arrayOfStudents.append(Student(name: String(subStudent.split(separator: ".")[0]), surname: String(subStudent.split(separator: ".")[1]), age: String(subStudent.split(separator: ".")[2]), gender: String(subStudent.split(separator: ".")[3])))
+            let studentDetails = subStudent.split(separator: ".")
+            let student = Student(name: String(studentDetails[0]),
+                                  surname: String(studentDetails[1]),
+                                  age: String(studentDetails[2]),
+                                  gender: String(studentDetails[3])
+            )
+            arrayOfStudents.append(student)
         }
     }
     
@@ -45,7 +51,7 @@ class StudentsDataStorage : NSObject, UITableViewDataSource {
         let student = arrayOfStudents[indexPath.row]
 //        studentsFromFile()
         switch student.gender {
-        case "m": studentsCell = tableView.dequeueReusableCell(withIdentifier: "studen2", for: indexPath)
+        case "m": studentsCell = tableView.dequeueReusableCell(withIdentifier: "student2", for: indexPath)
         case "f": studentsCell = tableView.dequeueReusableCell(withIdentifier: "student1",for: indexPath)
         default:  studentsCell = tableView.dequeueReusableCell(withIdentifier: "error",for: indexPath)
         }

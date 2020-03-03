@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -160,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ako-HK-O0s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4379.7101449275369" y="-58.258928571428569"/>
+            <point key="canvasLocation" x="3454" y="-58"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="C2W-5n-cvP">
@@ -229,16 +229,16 @@
                         <viewLayoutGuide key="safeArea" id="HrU-Ce-Bpd"/>
                     </view>
                     <connections>
-                        <outlet property="Name" destination="T4d-iq-SYb" id="DZw-4W-kVs"/>
                         <outlet property="ageLabel" destination="yW1-jp-r9z" id="duJ-Sp-ZcY"/>
                         <outlet property="genderLabel" destination="CuL-FF-Z7i" id="d3z-tX-Mlu"/>
                         <outlet property="informationLabel" destination="10a-Bm-mD1" id="A5B-1F-GpQ"/>
+                        <outlet property="nameLabel" destination="T4d-iq-SYb" id="h5Y-eJ-GtS"/>
                         <outlet property="surnameLabel" destination="469-et-gmf" id="h2q-H4-HNO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v1Q-CL-CJV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5634.7826086956529" y="-58.258928571428569"/>
+            <point key="canvasLocation" x="4448" y="-796"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="A4k-Ol-17s">
@@ -334,7 +334,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6zQ-0p-viA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4380" y="830"/>
+            <point key="canvasLocation" x="3454" y="716"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ipu-tB-4WF">
@@ -353,7 +353,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHo-Ko-WFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3455" y="-623"/>
+            <point key="canvasLocation" x="3486" y="-796"/>
         </scene>
     </scenes>
     <resources>
