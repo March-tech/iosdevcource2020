@@ -9,7 +9,14 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
+//   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+//       super.init(nibNameOrNil, bundle: nibBundleOrNil)
+//   }
+//
+//    required init?(coder: NSCoder) {
+//        fatalError("init coder has not been imp")
+//    }
     @IBOutlet weak var WelcomeLabel: UILabel!
     
     
